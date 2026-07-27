@@ -9,15 +9,15 @@ This project was designed to create an open source, minimalist workspace that pr
 comprehensive hardware engineering exercise. Building this keyboard helped me learn engineering design, CAD modeling, PCB routing, soldering, and embedded firmware compilation.
 
 3D Model
-<img width="1390" height="709" alt="angle2CAD" src="https://github.com/user-attachments/assets/ddc73fd4-f95c-4e8f-ba2e-3b210f77fbdb" />
-<img width="1489" height="648" alt="angle3CAD" src="https://github.com/user-attachments/assets/d2b4bb0f-6a8d-4568-9caf-ac9b76392f5b" />
+<img width="1496" height="679" alt="angle33CAD" src="https://github.com/user-attachments/assets/cd2953f7-a695-4f53-9b19-3642dcf3128d" />
+<img width="1347" height="590" alt="angle2CAD" src="https://github.com/user-attachments/assets/22058121-cec9-42c3-ab04-bbaa8401bce1" />
 *Full mechanical assembly modeled in Onshape.*
 
 Custom PCB
-<img width="1657" height="780" alt="PCB3Dview" src="https://github.com/user-attachments/assets/dce8acb2-ef11-4fdf-9362-c5b1c8d81a43" />
-<img width="1668" height="818" alt="PCB3Dviewbackside" src="https://github.com/user-attachments/assets/a539514b-9b78-41bd-8943-c0a3a2cc3ea9" />
-<img width="1605" height="719" alt="PCBWiringDiagram" src="https://github.com/user-attachments/assets/fbd354af-3aad-4eb7-87c3-a987b80f35cd" />
-*Custom PCB routed in KiCad.*
+<img width="1647" height="770" alt="3dviewbacksdie5" src="https://github.com/user-attachments/assets/4c929863-dbb4-440e-bca1-a17aa4f8c466" />
+<img width="1655" height="753" alt="3dviewfrontside" src="https://github.com/user-attachments/assets/624fba1d-4215-44e4-a20c-c268a4f1602f" />
+<img width="1592" height="724" alt="pcbEditorCompleteWiring" src="https://github.com/user-attachments/assets/20d0fd2a-cfa8-491d-9861-692b57286ddf" />
+*Custom PCB designed and routed in KiCad.*
 
 Wiring Diagram
 <img width="1932" height="3839" alt="batteryWiringDiagram" src="https://github.com/user-attachments/assets/bafd0f00-c267-463a-854a-668ba31f90ef" />
