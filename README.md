@@ -8,6 +8,9 @@ It utilizes Bluetooth 5.0 to communicate seamlessly without a cable connecting t
 This project was designed to create an open source, minimalist workspace that promotes ergonomic health withouting compromising functionality. Beyond the physical utility, it serves as a 
 comprehensive hardware engineering exercise. Building this keyboard helped me learn engineering design, CAD modeling, PCB routing, soldering, and embedded firmware compilation.
 
+<img width="3840" height="1804" alt="image" src="https://github.com/user-attachments/assets/fa70e3ac-5ff7-40a0-8e88-e1f0f6d60fbd" />
+<img width="3840" height="1517" alt="image" src="https://github.com/user-attachments/assets/20556af2-54f6-4824-96a6-8200db499fd2" />
+
 3D Model
 <img width="1496" height="679" alt="angle33CAD" src="https://github.com/user-attachments/assets/cd2953f7-a695-4f53-9b19-3642dcf3128d" />
 <img width="1347" height="590" alt="angle2CAD" src="https://github.com/user-attachments/assets/22058121-cec9-42c3-ab04-bbaa8401bce1" />
