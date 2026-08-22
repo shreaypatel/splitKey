@@ -1,0 +1,13 @@
+file_format: "1"
+id: ataraxia
+name: Ataraxia
+type: shield
+url: ""
+requires: [xiao_ble]
+exposes: [i2c_0]
+features:
+  - keys
+  - ble
+siblings:
+  - ataraxia_left
+  - ataraxia_right

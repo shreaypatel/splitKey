@@ -1,0 +1,6 @@
+# No whitespace after the comma or in the shield name!
+config SHIELD_ATARAXIA_LEFT
+    def_bool $(shields_list_contains,ataraxia_left)
+
+config SHIELD_ATARAXIA_RIGHT
+    def_bool $(shields_list_contains,ataraxia_right)

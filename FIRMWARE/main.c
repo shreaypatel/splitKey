@@ -1,1 +1,0 @@
-//This keyboard uses ZMK firmware, please look at the keymap and overlay files for the source code
