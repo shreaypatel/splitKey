@@ -1,0 +1,57 @@
+:root {
+  --color-bg: #07080c;
+  --color-bg-elevated: #101218;
+  --color-surface: #16191f;
+  --color-fg: #eef0f4;
+  --color-fg-muted: #9ca5b2;
+  --color-fg-faint: #6c7584;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.16);
+  --color-accent: #e8ecf4;
+  --color-accent-soft: rgba(255, 255, 255, 0.08);
+  --color-correct: #9ab0c4;
+  --color-pending: #535b69;
+  --color-error: #c98b8b;
+  --color-btn: rgba(255, 255, 255, 0.14);
+  --color-btn-fg: #f4f6fa;
+  --color-key: #1c2028;
+  --color-key-on: #2a303b;
+  --color-key-active: #3a4252;
+  --color-case: #12151c;
+
+  --glass-fill: rgba(255, 255, 255, 0.05);
+  --glass-fill-strong: rgba(255, 255, 255, 0.14);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-border-strong: rgba(255, 255, 255, 0.34);
+  --glass-blur: 22px;
+  --glass-inset: inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  --glass-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+
+  --font-sans: "Geist Variable", Geist, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.75rem;
+  --text-hero: clamp(3rem, 7vw, 5rem);
+  --text-prompt: clamp(1.75rem, 3.2vw, 2.45rem);
+
+  --radius: 1.15rem;
+  --radius-sm: 0.625rem;
+  --radius-pill: 999px;
+  --ease: 280ms ease;
+  --max-width: min(1120px, 100%);
+  --max-width-wide: min(1320px, 100%);
+  --page-pad-x: clamp(1.25rem, 3.5vw, 2.5rem);
+  --stage-min-h: min(62vh, 36rem);
+}

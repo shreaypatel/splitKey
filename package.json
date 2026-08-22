@@ -1,0 +1,12 @@
+{
+  "name": "ataraxia",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ataraxia split keyboard — hardware + typing tutor",
+  "scripts": {
+    "dev": "npm run dev --prefix web",
+    "build": "npm run build --prefix web",
+    "lint": "npm run lint --prefix web",
+    "preview": "npm run preview --prefix web"
+  }
+}

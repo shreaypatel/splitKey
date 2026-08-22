@@ -1,0 +1,75 @@
+.split-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.5rem, 4vw, 3.25rem);
+  padding: clamp(1rem, 2vh, 1.5rem) 0.25rem;
+  user-select: none;
+  overflow: visible;
+  width: 100%;
+}
+
+.split-hint__board {
+  flex: 1 1 auto;
+  width: min(48%, 460px);
+  max-width: 480px;
+  height: auto;
+  overflow: visible;
+  filter: drop-shadow(0 18px 40px color-mix(in srgb, #000 45%, transparent));
+}
+
+.split-hint__board--left,
+.split-hint__board--right {
+  transform: none;
+}
+
+.split-hint__case {
+  fill: var(--color-case);
+  stroke: var(--color-fg-faint);
+  stroke-width: 1.35;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.split-hint__key {
+  fill: var(--color-key);
+  stroke: var(--color-border);
+  stroke-width: 0.75;
+  transition: fill 180ms ease, stroke 180ms ease;
+}
+
+.split-hint__key--on {
+  fill: var(--color-key-on);
+  stroke: var(--glass-border-strong);
+}
+
+.split-hint__key--active {
+  fill: var(--color-key-active);
+  stroke: var(--color-fg);
+  stroke-width: 1.45;
+}
+
+.split-hint__label {
+  fill: var(--color-pending);
+  font-family: var(--font-mono);
+  font-size: 6.6px;
+  pointer-events: none;
+  transition: fill 180ms ease;
+}
+
+.split-hint__label--on {
+  fill: var(--color-fg);
+}
+
+.split-hint__glyph {
+  fill: none;
+  stroke: var(--color-pending);
+  stroke-width: 0.85;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transition: stroke 180ms ease;
+}
+
+.split-hint__glyph--on {
+  stroke: var(--color-fg);
+}

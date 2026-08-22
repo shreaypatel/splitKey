@@ -1,0 +1,226 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--color-fg);
+  background:
+    radial-gradient(ellipse 90% 55% at 18% -10%, #1b2230 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 100% 110%, #121722 0%, transparent 50%),
+    var(--color-bg);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-fg-muted);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: clamp(1rem, 2.2vh, 1.75rem) var(--page-pad-x) clamp(1.5rem, 3vh, 2.5rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main--wide {
+  max-width: var(--max-width-wide);
+}
+
+.page {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  animation: page-fade var(--ease) both;
+}
+
+@keyframes page-fade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes caret-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes complete-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.glass-panel {
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  background: var(--glass-fill);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  box-shadow: var(--glass-inset), var(--glass-shadow);
+}
+
+.glass-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.25rem;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+  background: var(--glass-fill);
+  color: var(--color-fg-muted);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: var(--glass-inset);
+  transition:
+    background var(--ease),
+    color var(--ease),
+    border-color var(--ease),
+    box-shadow var(--ease);
+}
+
+.glass-pill:hover {
+  color: var(--color-fg);
+  border-color: var(--glass-border-strong);
+}
+
+.glass-pill--on {
+  color: var(--color-fg);
+  background: var(--glass-fill-strong);
+  border-color: var(--glass-border-strong);
+  box-shadow:
+    var(--glass-inset),
+    0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.45rem;
+  border: 1px solid var(--glass-border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--glass-fill-strong);
+  color: var(--color-btn-fg);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: var(--glass-inset);
+  transition:
+    background var(--ease),
+    color var(--ease),
+    border-color var(--ease),
+    opacity var(--ease);
+}
+
+.btn:hover {
+  opacity: 0.92;
+  color: var(--color-btn-fg);
+}
+
+.btn-ghost {
+  background: var(--glass-fill);
+  color: var(--color-fg-muted);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+  padding: 0.8rem 1.45rem;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: var(--glass-inset);
+}
+
+.btn-ghost:hover {
+  color: var(--color-fg);
+  border-color: var(--glass-border-strong);
+}
+
+.btn-text {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0.35rem 0;
+  color: var(--color-fg-muted);
+  font-size: var(--text-sm);
+}
+
+.btn-text:hover {
+  color: var(--color-fg);
+}
+
+.muted {
+  color: var(--color-fg-muted);
+}
+
+.faint {
+  color: var(--color-fg-faint);
+}
