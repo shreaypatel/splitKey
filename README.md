@@ -6,7 +6,7 @@ It utilizes Bluetooth 5.0 to communicate seamlessly without a cable connecting t
 350mAh LiPo batteries for extended operational life.
 
 This project was designed to create an open source, minimalist workspace that promotes ergonomic health withouting compromising functionality. Beyond the physical utility, it serves as a 
-comprehensive hardware engineering exercise. Building this keyboard helped me learn engineering design, CAD modeling, PCB routing, soldering, and embedded firmware compilation.
+comprehensive hardware engineering exercise. Building this keyboard helped me learn engineering design, CAD modeling, PCB routing, soldering, and embedded firmware compilation. Check out the web app to learn touch typing on this split keyboard layout here: https://ataraxiatype.netlify.app/
 
 <img width="3840" height="1804" alt="image" src="https://github.com/user-attachments/assets/fa70e3ac-5ff7-40a0-8e88-e1f0f6d60fbd" />
 
