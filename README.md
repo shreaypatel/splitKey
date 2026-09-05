@@ -22,6 +22,7 @@ Custom PCB
 *Custom PCB designed and routed in KiCad.*
 
 Wiring Diagram
+<img width="1503" height="714" alt="image" src="https://github.com/user-attachments/assets/259f9d7e-6d30-4ceb-9339-1a664ee8555a" />
 <img width="1932" height="3839" alt="batteryWiringDiagram" src="https://github.com/user-attachments/assets/bafd0f00-c267-463a-854a-668ba31f90ef" />
 *Simplified direct-wiring diagram connecting the 3.7V LiPo battery to the XIAO nRF52840.*
 
